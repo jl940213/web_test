@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>我的个人博客</title>
+    <style>
+        body {
+            background-image: url("background.jpg");
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            height: 100px;
+            background-color: #f0f0f0;
+            text-align: center;
+            line-height: 100px;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #333333;
+        }
+        .nav {
+            height: 50px;
+            background-color: #cccccc;
+        }
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav li {
+            float: left;
+            width: 200px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .nav a {
+            display:block; 
+            text-decoration:none; 
+            color:#333333; 
+        }
+        .nav a:hover { 
+           background-color:#999999; 
+           color:#ffffff; 
+       } 
+       .content { 
+           height:auto; 
+           overflow:hidden; 
+       } 
+       .content-left { 
+           float:left; 
+           width:800px; 
+           margin-top:20px;  
+       }  
+       .content-right {  
+           float:right;  
+           width:380px;  
+           margin-top:20px;   
+       }   
+       .article {   
+          border-bottom:dashed 1px #cccccc;   
+          padding-bottom:10px;    
+      }     
+      .article h2 {     
+         font-size :24 px ;     
+         color :#333333 ;      
+     }      
+     .article p {      
+         font-size :16 px ;      
+         color :#666666 ;       
+     }       
+     </style>
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+          <h1>我的个人博客</h1>
+      </div>
+      <div class="nav">
+          <ul>
+              <li><a href="#">首页</a></li>
+              <li><a href="#">关于我</a></li>
+              <li><a href="#">我的作品</a></li>
+              <li><a href="#">联系我</a></li>
+              <li><a href="#">留言板</a></li>
+          </ul>    
+      </div>    
+      <div class="content">    
+          <div class="content-left">    
+              <!-- 文章列表 -->    
+              <div class="article">    
+                  <!-- 文章标题 -->    
+                  <h2>欢迎来到我的个人博客</h2>    
+                  <!-- 文章内容 -->    
+                  <p>这是我的第一篇文章，我将在这里分享我的学习心得和生活感悟。</p>    
+              </div>     
+              <!-- 文章列表 -->     
+              <div class="article">     
+                  <!-- 文章标题 -->     
+                  <h2>HTML基础教程</h2>     
+                  <!-- 文章内容 -->     
+                  <p>HTML是超文本标记语言，它可以用来创建网页的结构和内容。</p>     
+              </div>      
+          </div>      
+          <!-- 右侧栏目 -->      
+          <div class="content-right">      
+             <!-- 搜索框 -->      
+             搜索：<input type="text" name="keyword" />      
+             <!-- 友情链接 -->      
+             友情链接：<br />      
+             - 菜鸟教程<br />      
+             - 知乎<br />       
+         </div>       
+     </div>
+
+    </body>
+
+    </html>
